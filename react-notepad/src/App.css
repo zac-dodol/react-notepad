@@ -1,0 +1,42 @@
+.app {
+  display: flex;
+}
+
+.note-list {
+  width: 200px;
+  border-right: 1px solid #ccc;
+}
+
+.note-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.note-item.selected {
+  background-color: #e0e0e0;
+}
+
+.note-form {
+  flex: 1;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
