@@ -25,7 +25,7 @@ const NoteForm = () => {
     } else {
       setFormData(initialFormData);
     }
-  }, [selectedNote, initialFormData]);
+  }, [selectedNote]);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
